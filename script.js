@@ -60,6 +60,6 @@ function searchEmployee() {
     } else {
 
         employeeDetails.innerHTML = "";
-        message.textContent = "Employee not found.";
+        message.textContent ="No employee found with this ID.";
     }
 }
